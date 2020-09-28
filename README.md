@@ -10,7 +10,7 @@ Conforme descrito no próprio github da ferramenta, o Prometheus é um sistema d
 - A definição dos serviços a serem monitorados pode ser feita através de uma configuração estática ou através de descoberta.
 - Possui vários modos de suporte a gráficos e painéis.
 
-# Spring Boot Micrometer with Prometheus Example
+# Como executar o Spring Boot Micrometer com Prometheus
 
-- `http://localhost:8091/rest/hello`, `http://localhost:8091/rest/hello2`,`http://localhost:8091/rest/hello3`, `http://localhost:8091/rest/hello4` - Different REST endpoints which are collected by Micrometer for Prometheus
-- `http://localhost:8091/prometheus` - Endpoint where the Prometheus metrics can be accessed.
+- `http://localhost:8091/rest/hello`, `http://localhost:8091/rest/hello2`,`http://localhost:8091/rest/hello3`, `http://localhost:8091/rest/hello4` - Diferentes pontos de extremidade REST que são coletados pelo micrômetro para Prometheus
+- `http://localhost:8091/prometheus` - Endpoint onde as métricas do Prometheus podem ser acessadas.
